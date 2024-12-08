@@ -17,8 +17,7 @@ const conexao = knex(knexfile)
 
 
 //consultar dados
-//
-// await consultar(conexao, {id:4} )
+await consultar(conexao, {id:4} )
 
 
 // alterar dados
@@ -27,7 +26,7 @@ const conexao = knex(knexfile)
 
 // deletar dados
 
- await deletarDados(conexao,{id:1})
+// await deletarDados(conexao,{id:1})
 
 // para encerrar  conexao com o database
 conexao.destroy()

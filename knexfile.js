@@ -1,6 +1,6 @@
 // Update with your config settings.
-
-require('dotenv').config();
+import dotenv from 'dotenv';
+dotenv.config();
 
 
 
@@ -9,7 +9,7 @@ export default {
 		connection: {
             database: 'crud',
 			user: 'root',
-			password: 'process.env.DB_SENHA'
+			password: process.env.DB_SENHA
 			
 		},
 	
